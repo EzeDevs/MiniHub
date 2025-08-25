@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.ezedevs.minihub.imc.CalculatorActivity
 import com.ezedevs.minihub.saludapp.SaludAppActivity
 
 class MenuActivity : AppCompatActivity() {
@@ -17,6 +18,15 @@ class MenuActivity : AppCompatActivity() {
 
         val btnSaludApp = findViewById<Button>(R.id.btnSaludApp)
         btnSaludApp.setOnClickListener { navigateToSaludApp() }
+
+        val btnIMC = findViewById<Button>(R.id.btnIMC)
+        btnIMC.setOnClickListener { navigateToIMC() }
+
+        val btnSuperheroApp = findViewById<Button>(R.id.btnSuperheroApp)
+        btnSuperheroApp.setOnClickListener { navigateToSuperheroApp() }
+
+        val btnTODO = findViewById<Button>(R.id.btnTODO)
+        btnTODO.setOnClickListener { navigateToTODO() }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -29,4 +39,18 @@ class MenuActivity : AppCompatActivity() {
         val intent = Intent(this, SaludAppActivity::class.java)
         startActivity(intent)
     }
+
+    private fun navigateToIMC() {
+        val intent = Intent(this, CalculatorActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateToSuperheroApp() {
+        TODO("Not yet implemented")
+    }
+
+    private fun navigateToTODO() {
+        TODO("Not yet implemented")
+    }
+
 }

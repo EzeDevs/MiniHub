@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MiniHub"
         tools:targetApi="31">
         <activity
+            android:name=".imc.ResultIMCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imc.CalculatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".saludapp.ResultActivity"
             android:exported="false" />
         <activity

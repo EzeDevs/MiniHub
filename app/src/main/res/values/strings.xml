@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">MiniHub</string>
+    <string name="welcome">¡Bienvenido a MiniHub!</string>
+    <string name="saludapp">Saludame</string>
+    <string name="imc">Calculadora de IMC</string>
+    <string name="TODO">Lista de tareas</string>
+    <string name="superheroapp">App de superheroes</string>
+    <string name="p">App de persistencia</string>
+
+    // SaludApp
+    <string name="name">Introduce tu nombre</string>
+    <string name="hint">¿Cómo te llamas?</string>
+
+    // IMC
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calculate">Calcular</string>
+    <string name="recalculate">Re-Calcular</string>
+    <string name="result">Tu resultado</string>
+
+    <string name="title_underweight">Bajo peso</string>
+    <string name="info_underweight">Tu peso está por debajo de lo recomendado.</string>
+
+    <string name="title_normal_weight">Peso normal</string>
+    <string name="info_normal_weight">Tu peso está en el rango saludable.</string>
+
+    <string name="title_overweight">Sobrepeso</string>
+    <string name="info_overweight">Tienes sobrepeso, cuida tu alimentación.</string>
+
+    <string name="title_obesity_1">Obesidad grado 1</string>
+    <string name="info_obesity_1">Tienes obesidad de riesgo moderado, consulta con un especialista pronto.</string>
+
+    <string name="title_obesity_2">Obesidad grado 2</string>
+    <string name="info_obesity_2">Tienes obesidad de alto riesgo, consulta con un especialista lo mas pronto posible.</string>
+
+    <string name="title_obesity_3">Obesidad grado 3</string>
+    <string name="info_obesity_3">Tienes obesidad morbida, consulta con un especialista urgentemente.</string>
+
+
+    <string name="title_error_weight">Error en la medicion de su imc</string>
+    <string name="info_error_weight">Su peso se escapa de nuestros parametros de medición.</string>
+
+    // TODO
+
+    // SuperheroApp
+
+    // Persistencia
+
 </resources>

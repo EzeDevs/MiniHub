@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:background="@color/background_app_menu"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginVertical="32dp"
-        android:text="¡Bienvenido a MiniHub!"
-        android:textColor="@color/black"
+        android:text="@string/welcome"
+        android:textColor="@color/title_text_menu"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -22,35 +22,50 @@
         android:id="@+id/btnSaludApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="8dp"
-        android:text="Saludame" />
+        android:text="@string/saludapp"
+        android:textColor="@color/title_text_menu_dark"
+        android:backgroundTint="@color/button_menu_saludapp"/>
 
     <Button
         android:id="@+id/btnIMC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="8dp"
-        android:text="Calculadora de IMC" />
+        android:text="@string/imc"
+        android:textColor="@color/title_text_menu_dark"
+        android:backgroundTint="@color/button_menu_imc"/>
 
     <Button
         android:id="@+id/btnTODO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="8dp"
-        android:text="Lista de tareas" />
+        android:text="@string/TODO"
+        android:textColor="@color/title_text_menu_light"
+        android:backgroundTint="@color/button_menu_TODO"/>
 
     <Button
         android:id="@+id/btnSuperheroApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="8dp"
-        android:text="App de superheroes" />
+        android:text="@string/superheroapp"
+        android:textColor="@color/title_text_menu_light"
+        android:backgroundTint="@color/button_menu_superheroapp"/>
 
     <Button
         android:id="@+id/btnApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="8dp"
-        android:text="App de persistencia" />
+        android:text="@string/p"
+        android:textColor="@color/title_text_menu_light"
+        android:backgroundTint="@color/button_menu"/>
 
 </LinearLayout>
