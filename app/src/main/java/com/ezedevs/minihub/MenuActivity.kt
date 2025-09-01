@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.ezedevs.minihub.imc.CalculatorActivity
 import com.ezedevs.minihub.saludapp.SaludAppActivity
+import com.ezedevs.minihub.todo.TodoActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,11 +23,11 @@ class MenuActivity : AppCompatActivity() {
         val btnIMC = findViewById<Button>(R.id.btnIMC)
         btnIMC.setOnClickListener { navigateToIMC() }
 
-        val btnSuperheroApp = findViewById<Button>(R.id.btnSuperheroApp)
-        btnSuperheroApp.setOnClickListener { navigateToSuperheroApp() }
-
         val btnTODO = findViewById<Button>(R.id.btnTODO)
         btnTODO.setOnClickListener { navigateToTODO() }
+
+        val btnSuperheroApp = findViewById<Button>(R.id.btnSuperheroApp)
+        btnSuperheroApp.setOnClickListener { navigateToSuperheroApp() }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -45,12 +46,12 @@ class MenuActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    private fun navigateToTODO() {
+        val intent = Intent(this, TodoActivity::class.java)
+        startActivity(intent)
+    }
+
     private fun navigateToSuperheroApp() {
         TODO("Not yet implemented")
     }
-
-    private fun navigateToTODO() {
-        TODO("Not yet implemented")
-    }
-
 }

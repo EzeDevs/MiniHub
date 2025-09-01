@@ -2,6 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
 
     // Menu
     <color name="background_app_menu">#F5ECD7</color>
@@ -36,4 +40,12 @@
     <color name="obesity_2">#f59d18</color>
     <color name="obesity_3">#ee203d</color>
     <color name="error_weight">#FF0000</color>
+
+    //TODO
+    <color name="background_component_todo">#475569</color>
+    <color name="background_component_selected_todo">#334155</color>
+    <color name="background_app_todo">#1e293b</color>
+    <color name="button_todo">#2563eb</color>
+    <color name="accent_todo">#d946ef</color>
+    <color name="title_text_todo">#cbd5e1</color>
 </resources>
