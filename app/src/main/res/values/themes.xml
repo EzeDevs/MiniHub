@@ -18,7 +18,30 @@
         <!-- You can customize corner family and size -->
         <!-- For example, to make it more square with slightly rounded corners: -->
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">30dp</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="Personal" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/personal_category
+        </item> <!-- Use your ColorStateList here -->
+    </style>
+
+    <style name="Business" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/business_category
+        </item> <!-- Use your ColorStateList here -->
+    </style>
+
+    <style name="Other" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/other_category
+        </item> <!-- Use your ColorStateList here -->
+    </style>
+
+    <style name="TodoSubtitle">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/subtitle_text_todo</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">32dp</item>
     </style>
 
     <style name="Theme.MiniHub" parent="Base.Theme.MiniHub" />

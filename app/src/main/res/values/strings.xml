@@ -7,11 +7,11 @@
     <string name="superheroapp">App de superheroes</string>
     <string name="p">App de persistencia</string>
 
-    // SaludApp
+    <!--SaludApp-->
     <string name="name">Introduce tu nombre</string>
     <string name="hint">¿Cómo te llamas?</string>
 
-    // IMC
+    <!--IMC-->
     <string name="male">Hombre</string>
     <string name="female">Mujer</string>
     <string name="height">Altura</string>
@@ -40,13 +40,21 @@
     <string name="info_obesity_3">Tienes obesidad morbida, consulta con un especialista urgentemente.</string>
 
 
-    <string name="title_error_weight">Error en la medicion de su imc</string>
+    <string name="title_error_weight">La medición de su imc falló</string>
     <string name="info_error_weight">Su peso se escapa de nuestros parametros de medición.</string>
 
-    // TODO
+    <!--TODOApp-->
+    <string name="title_todo">Lista de tareas</string>
+    <string name="categories_todo">Categorías:</string>
+    <string name="tasks_todo">Tareas:</string>
+    <string name="dialog_hint_task">Añade la tarea</string>
+    <string name="dialog_personal">Personal</string>
+    <string name="dialog_Business">Negocios</string>
+    <string name="dialog_others">Otros</string>
+    <string name="dialog_add_task">Añadir tarea</string>
 
-    // SuperheroApp
+    <!--SuperheroApp-->
 
-    // Persistencia
+    <!--Persistencia-->
 
 </resources>

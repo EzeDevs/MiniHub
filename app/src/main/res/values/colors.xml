@@ -7,7 +7,7 @@
     <color name="teal_200">#80CBC4</color>
     <color name="teal_700">#00796B</color>
 
-    // Menu
+    <!--Menu-->
     <color name="background_app_menu">#F5ECD7</color>
     <color name="title_text_menu">#353535</color>"
 
@@ -16,16 +16,16 @@
 
     <color name="button_menu_saludapp">#8FBF9F</color>
     <color name="button_menu_imc">#68a67d</color>
-    <color name="button_menu_TODO">#24613b</color>
+    <color name="button_menu_todo">#24613b</color>
     <color name="button_menu_superheroapp">#F18F01</color>
     <color name="button_menu">#833500</color>
 
-    // SaludApp
+    <!--SaludApp-->
     <color name="background_app_saludapp">#1E1E1E</color>
     <color name="button_saludapp">#0085ff</color>
     <color name="title_text_saludapp">#FFFFFF</color>
 
-    // IMC
+    <!--IMC-->
     <color name="background_component_imc">#444648</color>
     <color name="background_component_selected_imc">#2c2e30</color>
     <color name="background_app_imc">#1D1F21</color>
@@ -41,11 +41,15 @@
     <color name="obesity_3">#ee203d</color>
     <color name="error_weight">#FF0000</color>
 
-    //TODO
-    <color name="background_component_todo">#475569</color>
-    <color name="background_component_selected_todo">#334155</color>
+    <!--TODO-->
+    <color name="background_card">#475569</color>
+    <color name="background_disabled">#334155</color>
     <color name="background_app_todo">#1e293b</color>
-    <color name="button_todo">#2563eb</color>
-    <color name="accent_todo">#d946ef</color>
+    <color name="todo_accent">#d946ef</color>
     <color name="title_text_todo">#cbd5e1</color>
+    <color name="subtitle_text_todo">#94a3b8</color>
+
+    <color name="personal_category">#2463eb</color>
+    <color name="business_category">#ff8c00</color>
+    <color name="other_category">#4cae4f</color>
 </resources>
